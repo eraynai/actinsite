@@ -213,7 +213,7 @@ header {
   text-align: center;
 }
 
-@media (min-width: 600px){
+/*@media (min-width: 600px){
   .intro {
     display: grid;
     margin: 0 auto;
@@ -234,6 +234,28 @@ header {
     text-align: center;
     margin-top: 2em;
   }
+}*/
+
+
+.intro {
+  display: grid;
+  margin: 0 auto;
+  grid-column-gap: 1em;
+  grid-template-areas:
+    "img"
+    "subtitle";
+}
+.intro__img {
+  grid-area: img;
+  width: 100%;
+}
+
+.section__subtitle--intro {
+  align-self: start;
+  grid-column: -1/1;
+  grid-row: 2;
+  text-align: center;
+  margin-top: 2em;
 }
 
 /* Partners */

@@ -52,7 +52,7 @@ strong {
 }
 
 section {
-  padding: 5em 2em;
+  padding: 3em 2em;
 }
 
 /* Typography */
@@ -206,7 +206,7 @@ header {
 
 /* Intro Section */
 
-.intro {
+/*.intro {
   position: relative;
 }
 .section__subtitle--intro {
@@ -241,19 +241,21 @@ header {
   display: grid;
   margin: 0 auto;
   grid-column-gap: 1em;
-  grid-template-areas:
+  /*grid-template-areas:
     "img"
-    "subtitle";
+    "subtitle";*/
 }
 .intro__img {
-  grid-area: img;
+  /*grid-area: img;*/
   width: 100%;
+  
+  margin: 0 auto;
 }
 
 .section__subtitle--intro {
-  align-self: start;
+  /*align-self: start;
   grid-column: -1/1;
-  grid-row: 2;
+  grid-row: 2;*/
   text-align: center;
   margin-top: 2em;
 }

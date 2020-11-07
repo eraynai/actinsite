@@ -204,6 +204,9 @@ header {
 .hamburger::after {bottom: 6px;}
 
 
+
+
+
 /* Intro Section */
 
 .intro {
@@ -236,6 +239,11 @@ header {
 }
 
 
+
+
+
+
+
 /*.intro {
   display: grid;
   margin: 0 auto;
@@ -264,7 +272,7 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
   grid-gap: 3em;
-
+  align-items: center;
 }
 
 /* Footer */
@@ -287,4 +295,13 @@ header {
 
 .footer-link:hover {
   opacity: .7;
+}
+
+/* Media Queries */
+
+@media (min-width: 1200px){
+  section {
+    padding: 3em 20%;
+  }
+  
 }

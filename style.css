@@ -248,7 +248,6 @@ header {
 .intro__img {
   /*grid-area: img;*/
   width: 100%;
-  
   margin: 0 auto;
 }
 
@@ -264,7 +263,7 @@ header {
 
 .partner__people {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   grid-gap: 3em;
 
 }

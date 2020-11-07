@@ -206,14 +206,14 @@ header {
 
 /* Intro Section */
 
-/*.intro {
+.intro {
   position: relative;
 }
 .section__subtitle--intro {
   text-align: center;
 }
 
-/*@media (min-width: 600px){
+@media (min-width: 600px){
   .intro {
     display: grid;
     margin: 0 auto;
@@ -234,31 +234,31 @@ header {
     text-align: center;
     margin-top: 2em;
   }
-}*/
+}
 
 
-.intro {
+/*.intro {
   display: grid;
   margin: 0 auto;
   grid-column-gap: 1em;
   /*grid-template-areas:
     "img"
-    "subtitle";*/
+    "subtitle";
 }
 .intro__img {
-  /*grid-area: img;*/
+  grid-area: img;
   width: 100%;
   margin: 0 auto;
 }
 
 .section__subtitle--intro {
-  /*align-self: start;
+  *align-self: start;
   grid-column: -1/1;
-  grid-row: 2;*/
+  grid-row: 2;
   text-align: center;
   margin-top: 2em;
 }
-
+*/
 /* Partners */
 
 .partner__people {
